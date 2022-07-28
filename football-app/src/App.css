@@ -73,3 +73,9 @@
   flex-direction: column;
   margin: 50px 0;
 }
+.league-div > img {
+  width: 250px;
+}
+.league-div:hover {
+  transform: scale(1.1);
+}
