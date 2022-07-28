@@ -9,10 +9,10 @@ function Content(){
         <div className='content'>
             <div className="tabs">
         <div className="tab-leagues" onClick={() => setActive(true)}>
-          <h2 style={{ color: active ? "#00bfff" : null }}>Leagues</h2>
+          <h2 style={{ color: active ? "#fff" : null }}>Leagues</h2>
         </div>
         <div className="tab-standings" onClick={() => setActive(false)}>
-          <h2 style={{ color: !active ? "#00bfff" : null }}>Standings</h2>
+          <h2 style={{ color: !active ? "#fff" : null }}>Standings</h2>
         </div>
       </div>
 
