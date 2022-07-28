@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+
 function Standings(){
         const [selectedLeague, setSelectedLeague] = useState("eng.1");
         const [selectedYear, setSelectedYear] = useState("2021");
@@ -68,6 +69,27 @@ function Standings(){
           <option value="2020">2020</option>
           <option value="2021">2021</option>
         </select>
+      </div>
+      <div className="ranking-div">
+        {loading ? (
+          <style type="Circles" color="#00BFFF" height={80} width={80} />
+        ) : (
+          data?.map((data, index) => (
+            <div key={index} className="ranking-div-inner">
+              <h1>
+                <span>
+                  {`${index + 1}.`}
+                  <img
+                    src={data.team.logos[0]?.href}
+                    alt="#"
+                    className="logo-small"
+                  />
+                </span>{" "}
+                {data.team.shortDisplayName}
+              </h1>
+            </div>
+          ))
+        )}
       </div>
         </div>
 
