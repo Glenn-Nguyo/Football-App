@@ -14,6 +14,12 @@ function Leagues(){
         }, [])
     return(
         <div className="leagues">
+             {data?.map((league) => (
+        <div key={league.id} className="league-div">
+          <img src={league.logos.light} alt="#" />
+          <h4>{league.name}</h4>
+        </div>
+      ))}
         </div>
     )
             }
