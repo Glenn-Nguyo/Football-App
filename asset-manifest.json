@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Football-App/static/css/main.647c57e8.css",
+    "main.js": "/Football-App/static/js/main.135906f0.js",
+    "static/js/787.f6acc010.chunk.js": "/Football-App/static/js/787.f6acc010.chunk.js",
+    "index.html": "/Football-App/index.html",
+    "main.647c57e8.css.map": "/Football-App/static/css/main.647c57e8.css.map",
+    "main.135906f0.js.map": "/Football-App/static/js/main.135906f0.js.map",
+    "787.f6acc010.chunk.js.map": "/Football-App/static/js/787.f6acc010.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.647c57e8.css",
+    "static/js/main.135906f0.js"
+  ]
+}
