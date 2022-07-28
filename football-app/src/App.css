@@ -55,7 +55,7 @@
   color: #000;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   height: 50px;
 }
