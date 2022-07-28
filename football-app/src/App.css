@@ -59,3 +59,10 @@
   justify-content: center;
   height: 50px;
 }
+.leagues{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
