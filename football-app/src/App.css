@@ -66,3 +66,10 @@
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
 }
+.league-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
